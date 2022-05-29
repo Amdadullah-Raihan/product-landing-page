@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:#EEEEEE;
+
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding: 20px 30px;
+}
+#header #logo-div{
+ 
+}
+#header #logo-div #header-img{
+    width:400px;
+}
+#header #nav-bar{
+   
+}
+#header #nav-bar ul{
+     display: flex;
+     
+}
+#header #nav-bar ul .nav-link{
+   list-style-type: none;
+}
+#header #nav-bar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    color: black;
+    
+    
+}
+#main{
+    margin: 50px 200px;
+    
+}
+#main #user-info{
+   text-align: center;
+   line-height: 3em;
+   
+}
+#main #user-info #form #email{
+   height: 40px;
+   width: 300px;
+   padding-left: 10px;
+}
+#main #user-info #form #submit{
+    background-color:#F7B608;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: none;
+    
+ 
+   
+}
+#main #user-info #form #submit a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* #services{
+    display: flex;
+    flex-direction: column;
+    
+} */
+i{
+    color: #F7B608;
+}
+#main #services .services-div{
+ display: flex;
+ justify-content: space-between;
+ margin: 50px 0;
+}
+#main #vedio iframe{
+    width: 100%;
+    height: auto;
+
+    margin: auto;
+}
+#main #pricing{
+    display: flex;
+    justify-content: space-evenly;
+    margin:50px 0px;
+}
+#main #pricing .pricing-element{
+    border: 2px solid black;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+#main #pricing .pricing-element h5{
+    background-color:#DDDDDD;
+    padding: 20px;
+}
+#main #pricing .pricing-element h1,p{
+   line-height: 2em;
+}
+#main #pricing .pricing-element #select{
+  background-color: #F7B608;
+   padding: 10px 30px;
+   border: none;
+   border-radius: 3px;
+   font-size: 15px;
+}
+#main footer{
+    text-align: right;
+    background-color: #DDDDDD;
+}
+#main footer ul{
+    display: flex;
+    justify-content: right;
+}
+#main footer ul li{
+    list-style: none;
+    padding: 10px 20px;
+    
+}
+#main footer p{
+    opacity: 0.7;
+    padding: 10px 20px;
+    
+}
