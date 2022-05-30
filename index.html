@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
     <header id="header">
@@ -14,20 +15,19 @@
        </div>
        <nav id="nav-bar">
            <ul>
-               <li class="nav-link"><a href="#">home</a></li>
-               <li class="nav-link"><a href="#">catagory</a></li>
-               <li class="nav-link"><a href="#">your order</a></li>
-               <li class="nav-link"><a href="#">about us</a></li>
-               <li class="nav-link"><a href="#">contact us</a></li>
-           </ul>
+               <li><a class="nav-link"  href="#header">home</a></li>
+               <li><a class="nav-link"  href="#services">catagory</a></li>
+               <li><a class="nav-link"  href="#pricing">your order</a></li>
+               <li><a class="nav-link"  href="#footer">contact us</a></li>
+           </ul> 
        </nav>
     </header>
     <main id="main">
         <div id="user-info">
            <h2>Handcrafted, home-made masterpieces</h2>
-           <form action="" id="form">
-               <input type="text" id="email" placeholder="Enter your email" required> <br>
-               <button id="submit"><a href="https://www.freecodecamp.com/email-submit">GET STARTED</a></button>
+           <form action="https://www.freecodecamp.com/email-submit" id="form">
+               <input type="email" name="email" id="email" placeholder="Enter your email" required> <br>
+               <a href="https://github.com/Amdadullah-Raihan/product-landing-page"><input type="submit" id="submit" value="GET STARTED"></a>
            </form>
        </div>
         <div id="services">
@@ -59,8 +59,8 @@
                 </div>
             </div>
         </div>
-        <div id="vedio">
-            <iframe src="https://youtu.be/y8Yv4pnO7qc" frameborder="0"></iframe>
+        <div id="video-div">
+           <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/IFFH9w6mLgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div id="pricing">
             <div class="pricing-element">
@@ -91,7 +91,7 @@
                 <button id="select">SELECT</button>
             </div>
         </div>
-        <footer>
+        <footer id="footer">
             <ul>
                 <li>Privacy</li>
                 <li>Terms</li>

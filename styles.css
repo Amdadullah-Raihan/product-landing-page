@@ -4,13 +4,18 @@
 }
 body{
     background-color:#EEEEEE;
+    position: relative;
 
 }
 #header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    position: sticky;
     padding: 20px 30px;
+    position:fixed;
+    top:0;
+    z-index: 3;
+    background-color:#EEEEEE;
 }
 #header #logo-div{
  
@@ -25,7 +30,7 @@ body{
      display: flex;
      
 }
-#header #nav-bar ul .nav-link{
+#header #nav-bar ul li{
    list-style-type: none;
 }
 #header #nav-bar ul li a{
@@ -38,6 +43,8 @@ body{
 }
 #main{
     margin: 50px 200px;
+    position: absolute;
+    top: 60px;
     
 }
 #main #user-info{
@@ -52,9 +59,11 @@ body{
 }
 #main #user-info #form #submit{
     background-color:#F7B608;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-top: 10px;
     border: none;
+    font-weight:bold;
+    text-align: center;
     
  
    
@@ -79,10 +88,8 @@ i{
  justify-content: space-between;
  margin: 50px 0;
 }
-#main #vedio iframe{
-    width: 100%;
-    height: auto;
-
+#main #video-div{
+    text-align: center;
     margin: auto;
 }
 #main #pricing{
